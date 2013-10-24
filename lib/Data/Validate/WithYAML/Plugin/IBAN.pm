@@ -8,7 +8,7 @@ use warnings;
 use Carp;
 use Algorithm::CheckDigits;
 
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 sub check {
     my ($class, $value, $conf) = @_;
@@ -22,9 +22,13 @@ __END__
 
 =pod
 
-=head1 DESCRIPTION
+=head1 NAME
 
-Check if the given value is a valid IBAN
+Data::Validate::WithYAML::Plugin::IBAN - check whether a given value is a valid IBAN
+
+=head1 VERSION
+
+version 0.02
 
 =head1 SYNOPSIS
 
@@ -45,5 +49,21 @@ Your F<validate.yml>:
   bank_account:
     type: required
     plugin: IBAN
+
+=head1 DESCRIPTION
+
+Check if the given value is a valid IBAN
+
+=head1 AUTHOR
+
+Renee Baecker <reneeb@cpan.org>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is Copyright (c) 2013 by Renee Baecker.
+
+This is free software, licensed under:
+
+  The Artistic License 2.0 (GPL Compatible)
 
 =cut

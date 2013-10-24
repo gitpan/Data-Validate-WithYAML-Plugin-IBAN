@@ -21,10 +21,10 @@ my %WriteMakefileArgs = (
   "NAME" => "Data::Validate::WithYAML::Plugin::IBAN",
   "PREREQ_PM" => {
     "Algorithm::CheckDigits" => 0,
-    "Data::Validate::WithYAML" => "0.08"
+    "Data::Validate::WithYAML" => "0.12"
   },
   "TEST_REQUIRES" => {},
-  "VERSION" => "0.01",
+  "VERSION" => "0.02",
   "test" => {
     "TESTS" => "t/*.t"
   }

@@ -14,5 +14,5 @@ meta-spec:
 name: Data-Validate-WithYAML-Plugin-IBAN
 requires:
   Algorithm::CheckDigits: 0
-  Data::Validate::WithYAML: 0.08
-version: 0.01
+  Data::Validate::WithYAML: 0.12
+version: 0.02
